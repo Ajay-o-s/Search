@@ -5,7 +5,7 @@ import {BrowserRouter as Router ,Switch,Route } from "react-router-dom";
 import './App.css';
 //import Search from './pages/Search';
 import SearchPage from "./SearchPage";
-import SearchPageTest from './SearchPageTest';
+//import SearchPageTest from './SearchPageTest';
 import Search from './Search';
 
 function App() {

@@ -5,7 +5,7 @@ import useGoogleSearch from "./useGoogleSearch";
 
 function SearchPage() {
     
-    const [{term},dispatch]=useStateValue();
+    const [{term}]=useStateValue();
     const { data } = useGoogleSearch(term);
 
     console.log(data);

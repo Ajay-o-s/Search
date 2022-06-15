@@ -8,7 +8,7 @@ import {actionTypes} from "./reducer";//used inside the pages
 import {useStateValue} from "./StateProvider";
 
 function Search({hideButtons=false}) {
-    const [{},dispatch]=useStateValue();
+    const [{},dispatch]=useStateValue(); // jdfu
     const [input,setInput]=useState('');
     const history = useHistory();
     
